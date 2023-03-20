@@ -1,8 +1,7 @@
 const navToggle = document.querySelector(".nav-toggle");
 const navLinks = document.querySelectorAll(".nav__link");
-var date = new Date().getFullYear();
 
-document.querySelector("#date").innerHTML = date;
+document.querySelector("#date").innerHTML = new Date().getFullYear();
 
 navToggle.addEventListener("click", () => {
   document.body.classList.toggle("nav-open");
