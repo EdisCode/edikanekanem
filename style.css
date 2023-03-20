@@ -368,6 +368,50 @@ h3 {
   }
 }
 
+/* my skills */
+.my-skills {
+  text-align: center;
+}
+
+.section__title--skills {
+  margin: 0.5em auto 1em;
+}
+
+.section__title--skills::after {
+  content: "";
+  display: block;
+  width: 2em;
+  height: 1px;
+  margin: 0.5em auto 1em;
+  background: var(--clr-dark);
+  opacity: 0.25;
+}
+
+.skills {
+  padding: 50px 10px;
+  text-align: center;
+}
+
+.skills ul {
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.skills li {
+  display: inline-block;
+  margin: 10px;
+  padding: 0.5em 2em;
+  background: #e4e4ea;
+  color: var(--clr-dark);
+  list-style: none;
+  cursor: default;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: var(--fw-bold);
+}
+
 /* my work */
 .my-work {
   background-color: var(--clr-dark);
